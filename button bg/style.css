@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+button{
+    font-family: sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    letter-spacing: 0.15rem;
+    border-radius: 2rem;
+   
+
+    
+
+}
