@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;            
+    justify-content: center;    
+    align-items: center;     
+    height: 100vh;            
+    background-color: #ffffff;   
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;   
+}
+/* light krva */
+button{
+
+     padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: white;
+    border: 2px solid black;
+    
+}
+
+/* dark mate */
+
+body.dark-mode{
+    background-color: #333;
+    color: white;
+
+}
+
+button.dark-mode{
+        background-color: #555;
+}
