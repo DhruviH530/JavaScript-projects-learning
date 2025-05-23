@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  
+}
+
+#emoji{
+    font-size: 9rem;
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
+#emoji:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+
+}
